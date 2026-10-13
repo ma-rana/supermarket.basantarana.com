@@ -1,0 +1,15 @@
+{
+  "name": "autonomous-supermarket",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Autonomous Supermarket: 60-day simulation, Store Brain and commercial reporting (React + Express + SQLite)",
+  "engines": { "node": ">=22.5.0" },
+  "scripts": {
+    "setup": "npm install --prefix backend && npm install --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "start": "npm run build && npm start --prefix backend",
+    "dev": "npm run start",
+    "new-run": "npm run new-run --prefix backend --",
+    "set-submitted": "npm run set-submitted --prefix backend --"
+  }
+}

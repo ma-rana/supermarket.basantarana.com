@@ -1,0 +1,13 @@
+{
+  "name": "autonomous-supermarket-backend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "engines": { "node": ">=22.5.0" },
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "new-run": "node --no-warnings scripts/create-run.js",
+    "set-submitted": "node --no-warnings scripts/set-submitted.js"
+  },
+  "dependencies": { "express": "^4.21.2" }
+}
